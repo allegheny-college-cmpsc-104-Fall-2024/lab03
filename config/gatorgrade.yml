@@ -3,15 +3,29 @@ setup: |
 ---
 
 # perform checks on a file
-- writing/git_command.md:
-    - description: Ensure that a git_command.md files exist
+- writing/VSCode_command.md:
+    - description: Ensure that a VSCode_command.md files exist
       check: ConfirmFileExists
-    - description: No TODOs remain in the git_command.md files
+    - description: No TODOs remain in the VSCode_command.md files
       check: MatchFileFragment
       options:
         fragment: TODO
         count: 0
         exact: true
+
+- writing/lab3.py:
+    - description: Ensure that a lab3.py file exists
+      check: ConfirmFileExists
+    - description: Check that the print statement with or without a space exists in the lab3.py file
+      check: MatchFileFragment
+      options:
+        fragment: 'print\s*\("Hello, VSCode!"\)'
+        count: 1
+        exact: false
+
+- writing/lab3.png:
+    - description: Ensure that a lab3.png screenshot file exists
+      check: ConfirmFileExists
 
 - writing/reflection.md:
     - description: Ensure that the reflection.md files exist
