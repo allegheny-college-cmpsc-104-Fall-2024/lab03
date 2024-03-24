@@ -1,0 +1,35 @@
+setup: |
+  echo "🐊 All project dependencies have been installed!"
+---
+
+# perform checks on a file
+- writing/git_command.md:
+    - description: Ensure that a git_command.md files exist
+      check: ConfirmFileExists
+    - description: No TODOs remain in the git_command.md files
+      check: MatchFileFragment
+      options:
+        fragment: TODO
+        count: 0
+        exact: true
+
+- writing/reflection.md:
+    - description: Ensure that the reflection.md files exist
+      check: ConfirmFileExists
+    - description: No TODOs remain in the reflection.md files
+      check: MatchFileFragment
+      options:
+        fragment: TODO
+        count: 0
+        exact: true
+    - description: Write a minimum number of meaningful words (300) in the report
+      check: CountFileWords
+      options:
+        count: 300
+        exact: false
+
+# count number of commits in the GitHub repository
+- description: Have at least 3 of commits in repository
+  check: CountCommits
+  options:
+    count: 3

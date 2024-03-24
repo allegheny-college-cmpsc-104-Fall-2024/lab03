@@ -1,0 +1,111 @@
+
+# Lab 03 - Intro to Visual Studio Code
+
+## Timeline
+<table>
+  <thead>
+      <td style="text-align:left;">Assigned</td>
+      <td style="text-align:left;">Monday 16 September 2024</td>
+  </thead>
+  <tfoot>
+      <td style="text-align:left; color: red;">Deadline</td>
+      <td style="text-align:left;">Friday 20 September 2024</td>
+  </tfoot>
+</table>
+
+![Lab 1 Assignment](https://github.com/allegheny-college-cmpsc-104-Fall-2024/lab03/blob/main/graphics/vscode.png)
+
+## Project Goals
+- Familiarize yourself with the VSCode interface and basic navigation.
+- Explore code editing and debugging features.
+- Utilize extensions to enhance development productivity.
+- Integrate VSCode with Git for version control.
+
+## Tools
+- A computer
+- Internet connection for installation and documentation reference
+- A GitHub account
+
+## Learning Outcomes
+These assignment learning outcomes contribute to the following course learning outcomes described in the course syllabus:
+
+1. Describe and explain processes such as software installation or design for a variety of technical and non-technical audiences ranging from inexperienced to expert.
+2. Use professional-grade integrated development environments (IDEs), command-line tools, and version control systems to compose, edit, and deploy well-structured, web-ready documents and industry-standard documentation tools.
+
+## Instructions
+
+### Part 1: Check a VSCode Setting
+Please verify that your development environment is correctly set up.
+
+#### 1. Verify VSCode Installation:
+- Execute `code --version` in Command Prompt (CMD)/Terminal to confirm your VSCode installation.
+
+#### 2. Check Git Configuration in VSCode:
+- Execute `git --version` in Command Prompt (CMD)/Terminal to confirm your Git installation.
+- Run `git config --global user.name` and `git config --global user.email` in Command Prompt (CMD)/Terminal to verify your Git username and email are correctly configured.
+- Open VSCode, press **Ctrl+Shift+P** (or **Cmd+Shift+P** on macOS) to open the Command Palette, and type `Git: Show Git Output`.
+
+### Part 2: VSCode Commands
+- Please complete the TODOs in `writing/VSCode_command.md`.
+
+### Part 3: Code Editing
+1. Create a new file named lab3.py.
+2. In this file, write a simple Python program that prints the message "Hello, VSCode!" to the console. (You can use: `print ("Hello, VSCode!")`)
+3. Take a screenshot of VSCode showing the lab3.py file and the output in the Console.
+4. Submit both lab3.py and the screenshot to the `writing/` directory in your project repository.
+
+### Part 4: Write about Visual Studio Code Insights
+- Please complete the TODOs in `writing/reflection.md`.
+1. **What is Visual Studio Code?** and its purpose in software development.
+2. Discuss the key features of VSCode, such as IntelliSense, Debugging, Extensions, and Version Control Integration.
+
+### Task 5: Git Integration
+1. Open the README.md file and Delete the "TODO" here.
+2. commit and push them back to the repository using VSCode's Git integration.
+
+### _Notes_: 
+- Within `writing/VSCode_command.md` and `writing/reflection.md`, you will find several TODOs awaiting your completion. As you work, please ensure to remove all TODO markers. 
+- For this lab, GatorGrader will verify that all TODOs have been eliminated and that your submission includes a minimum of 300 words.
+
+## Resources
+- Git Documentation: https://git-scm.com/doc
+    - Pro Git book: https://git-scm.com/book/en/v2
+- Coursera: https://www.coursera.org/learn/introduction-git-github
+
+## Deliverables
+Please submit your work by pushing it to your GitHub Classroom repository.
+- You will modify the files `writing/VSCode_command.md` and `writing/reflection.md` to respond questions in the document.
+
+## Project Assessment
+- **Report Quality (40%)**: The quality of the writing in `writing/reflection.md` will be assessed.
+    - Clarity and Coherence (10%): Writing clearly expresses ideas and concepts, with logical flow and coherence throughout.
+    - Structure and Organization (10%): The report is well-structured. Follows the assignment guidelines accurately.
+    - Grammar and Style (10%): Correct use of grammar, punctuation, and academic style. Professional and appropriate language is used.
+    - Depth of Reflection (10%): Demonstrates deep understanding and thoughtful reflection on each topics. Includes detailed explanations and insights.
+- **VScode Command Proficiency (30%)**: Correctly answer questions related to Git commands in `writing/VSCode_command.md`. Each correct response is worth 3%.
+- **Code Editing (20%)**: 
+    - Successfully create a file named lab3.py in the correct directory (5%).
+    - Write a Python program that prints "Hello, VSCode!" to the console (5%).
+    - Provide a clear screenshot showing the lab3.py file open in VSCode with the visible output in the Console (5%).
+    - Correctly submit both lab3.py and the screenshot in the writing/ directory of your project repository (5%).
+- **Achieve GatorGrader Compliance (10%)**: Successfully meets the criteria set by GatorGrader.
+
+## Gator Grade
+### GatorGrade Checks for Immediate Feedback
+
+To provide immediate feedback on your submissions, we're utilizing GatorGrade. Upon submission, if there's a thick red X, it indicates missing components. This X will turn into a green check mark once your submission is complete. For details on what's missing, click on the red X.
+
+To meet the lab assignment's baseline writing and commit requirements, you can use the department's `GatorGrade` tool. Ensure Python3 is installed on your computer (check with `python --version`). If Python is not installed, please follow these guides:
+
+- [Setting Up Python on Windows](https://realpython.com/lessons/python-windows-setup/)
+- [Python 3 Installation and Setup Guide](https://realpython.com/installing-python/)
+- [Setting Up a Local Programming Environment on Windows 10](https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-local-programming-environment-on-windows-10)
+
+Installing `GatorGrade`:
+
+- [Install](https://pipx.pypa.io/stable/) [pipx](https://pipx.pypa.io/stable/) if you haven't already (`pip install pipx`).
+- Install `GatorGrade` using pipx (`pipx install gatorgrade`).
+- Running `GatorGrade`:
+ `gatorgrade --config config/gatorgrade.yml`
+
+Good luck!
