@@ -69,7 +69,8 @@ Please verify that your development environment is correctly set up.
 - For this lab, GatorGrader will verify that all TODOs have been eliminated and that your submission includes a minimum of 300 words.
 
 ## Resources
-- VScode Documentation: https://code.visualstudio.com/docs
+- Official Visual Studio Code Documentation: https://code.visualstudio.com/docs
+- Git Integration with VSCode: https://code.visualstudio.com/docs/editor/versioncontrol
 
 ## Deliverables
 Please submit your work by pushing it to your GitHub Classroom repository.
@@ -86,7 +87,7 @@ Please submit your work by pushing it to your GitHub Classroom repository.
     - Successfully create a file named lab3.py in the correct directory (5%).
     - Write a Python program that prints "Hello, VSCode!" to the console (5%).
     - Provide a clear screenshot showing the lab3.py file open in VSCode with the visible output in the Console (5%).
-    - Correctly submit both lab3.py and the screenshot in the writing/ directory of your project repository (5%).
+    - Correctly submit both lab3.py and lab3.png in the writing/ directory of your project repository (5%).
 - **Achieve GatorGrader Compliance (10%)**: Successfully meets the criteria set by GatorGrader.
 
 ## Gator Grade
