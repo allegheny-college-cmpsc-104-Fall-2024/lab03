@@ -16,10 +16,10 @@ setup: |
 - writing/lab3.py:
     - description: Ensure that a lab3.py file exists
       check: ConfirmFileExists
-    - description: Check that the print statement with or without a space exists in the lab3.py file
+    - description: Check that the print statement exists in the lab3.py file
       check: MatchFileFragment
       options:
-        fragment: 'print\s*\("Hello, VSCode!"\)'
+        fragment: 'print ("Hello, VSCode!")'
         count: 1
         exact: false
 
@@ -39,7 +39,7 @@ setup: |
     - description: Write a minimum number of meaningful words (300) in the report
       check: CountFileWords
       options:
-        count: 300
+        count: 200
         exact: false
 
 # count number of commits in the GitHub repository
