@@ -68,9 +68,7 @@ Please verify that your development environment is correctly set up.
 - For this lab, GatorGrader will verify that all TODOs have been eliminated and that your submission includes a minimum of 300 words.
 
 ## Resources
-- Git Documentation: https://git-scm.com/doc
-    - Pro Git book: https://git-scm.com/book/en/v2
-- Coursera: https://www.coursera.org/learn/introduction-git-github
+- VScode Documentation: https://code.visualstudio.com/docs
 
 ## Deliverables
 Please submit your work by pushing it to your GitHub Classroom repository.
