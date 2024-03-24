@@ -49,17 +49,18 @@ Please verify that your development environment is correctly set up.
 - Please complete the TODOs in `writing/VSCode_command.md`.
 
 ### Part 3: Code Editing
-1. Create a new file named lab3.py.
+1. Create a new file named **lab3.py**.
 2. In this file, write a simple Python program that prints the message "Hello, VSCode!" to the console. (You can use: `print ("Hello, VSCode!")`)
 3. Take a screenshot of VSCode showing the lab3.py file and the output in the Console.
-4. Submit both lab3.py and the screenshot to the `writing/` directory in your project repository.
+4. Name the screenshot file **lab3.png**.
+5. Submit both lab3.py and the screenshot to the `writing/` directory in your project repository.
 
 ### Part 4: Write about Visual Studio Code Insights
 - Please complete the TODOs in `writing/reflection.md`.
 1. **What is Visual Studio Code?** and its purpose in software development.
 2. Discuss the key features of VSCode, such as IntelliSense, Debugging, Extensions, and Version Control Integration.
 
-### Task 5: Git Integration
+### Part 5: Git Integration
 1. Open the README.md file and Delete the "TODO" here.
 2. commit and push them back to the repository using VSCode's Git integration.
 
