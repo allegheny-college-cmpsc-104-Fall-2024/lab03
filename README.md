@@ -55,12 +55,17 @@ Please verify that your development environment is correctly set up.
 4. Name the screenshot file **lab3.png**.
 5. Submit both lab3.py and the screenshot to the `writing/` directory in your project repository.
 
-### Part 4: Write about Visual Studio Code Insights
+### Part 4: Debugging
+1. Identify and correct errors in `writing/debug.py` using VSCode's debugging features.
+3. Upon successfully debugging the script, take a screenshot of your VSCode interface showing the corrected script and no errors present. Name this screenshot debug.png. This will serve as proof of your successful debugging process
+2. Submit the corrected debug.py file and the debug.png screenshot.
+
+### Part 5: Write about Visual Studio Code Insights
 - Please complete the TODOs in `writing/reflection.md`.
 1. **What is Visual Studio Code?** and its purpose in software development.
 2. Discuss the key features of VSCode, such as IntelliSense, Debugging, Extensions, and Version Control Integration.
 
-### Part 5: Git Integration and Branching
+### Part 6: Git Integration and Branching
 1. **Modify README.md**:Open the README.md file and Delete the "TODO" here.
 2. **Commit Your Changes**:
    - Navigate to the Source Control panel in VSCode.
@@ -98,10 +103,12 @@ Please submit your work by pushing it to your GitHub Classroom repository.
     - Grammar and Style (5%): Correct use of grammar, punctuation, and academic style. Professional and appropriate language is used.
     - Depth of Reflection (5%): Demonstrates deep understanding and thoughtful reflection on each topics. Includes detailed explanations and insights.
 - **VScode Command Proficiency (30%)**: Correctly answer questions related to Git commands in `writing/VSCode_command.md`. Each correct response is worth 3%.
-- **Code Editing (20%)**: 
-    - Successfully create a file named lab3.py in the correct directory (5%).
+- **Code Editing (10%)**: 
     - Write a Python program that prints "Hello, VSCode!" to the console (5%).
-    - Provide a clear screenshot showing the lab3.py file open in VSCode with the visible output in the Console (10%).
+    - Provide a clear screenshot showing the lab3.py file open in VSCode with the visible output in the Console (5%).
+- **Debugging (10%)**: 
+    - Correctly identify and fix all logical errors in the debug.py file, ensuring that the function group_religions returns accurate categories for each religion type (5%).
+    - Provide a clear screenshot (debug.png) showing the corrected debug.py file open in VSCode, with the script successfully executed and displaying the expected output in the Terminal. The screenshot should clearly show the VSCode interface, including the Terminal output demonstrating the script running without errors (5%).
 - **Git Integration and Branching (20%)**:
     - Successfully removing the "TODO" from the `README.md` file (5%).
     - Correctly committing changes with an appropriate message (5%).
