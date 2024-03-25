@@ -60,9 +60,23 @@ Please verify that your development environment is correctly set up.
 1. **What is Visual Studio Code?** and its purpose in software development.
 2. Discuss the key features of VSCode, such as IntelliSense, Debugging, Extensions, and Version Control Integration.
 
-### Part 5: Git Integration
-1. Open the README.md file and Delete the "TODO" here.
-2. commit and push them back to the repository using VSCode's Git integration.
+### Part 5: Git Integration and Branching
+1. **Modify README.md**:Open the README.md file and Delete the "TODO" here.
+2. **Commit Your Changes**:
+   - Navigate to the Source Control panel in VSCode.
+   - Stage your changes for commit by clicking the `+` next to the `README.md` file.
+   - Commit your changes by entering a meaningful commit message in the message box and pressing the checkmark icon or `Ctrl+Enter` (`Cmd+Enter` on macOS).
+   - Example commit message: `"Remove TODO items from README."`
+3. **Work with Branches**:
+   - Create a new branch named `feature/update-readme` by opening the Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P` on macOS), then typing `Git: Create Branch...` and entering the branch name.
+   - Switch to your newly created branch by opening the Command Palette again, typing `Git: Checkout to...`, and selecting `feature/update-readme`.
+4. **Push Changes and Branch to Remote**:
+   - Push your commit along with the new branch to the remote repository. This can be done from the Source Control panel by clicking the `...` button, selecting `Push to...`, choosing your remote, and then selecting your branch.
+5. **Documentation**:
+   - Take a screenshot showing the successful creation and checkout of the new branch in VSCode, with the Source Control panel visible and displaying your recent commit.
+   - Name this screenshot `lab3-branching.png`.
+6. **Submission**:
+   - Place the screenshot `lab3-branching.png` into the `writing/` directory of your project repository.
 
 ### _Notes_: 
 - Within `writing/VSCode_command.md` and `writing/reflection.md`, you will find several TODOs awaiting your completion. As you work, please ensure to remove all TODO markers. 
@@ -77,17 +91,20 @@ Please submit your work by pushing it to your GitHub Classroom repository.
 - You will modify the files `writing/VSCode_command.md` and `writing/reflection.md` to respond questions in the document.
 
 ## Project Assessment
-- **Report Quality (40%)**: The quality of the writing in `writing/reflection.md` will be assessed.
-    - Clarity and Coherence (10%): Writing clearly expresses ideas and concepts, with logical flow and coherence throughout.
-    - Structure and Organization (10%): The report is well-structured. Follows the assignment guidelines accurately.
-    - Grammar and Style (10%): Correct use of grammar, punctuation, and academic style. Professional and appropriate language is used.
-    - Depth of Reflection (10%): Demonstrates deep understanding and thoughtful reflection on each topics. Includes detailed explanations and insights.
+- **Report Quality (20%)**: The quality of the writing in `writing/reflection.md` will be assessed.
+    - Clarity and Coherence (5%): Writing clearly expresses ideas and concepts, with logical flow and coherence throughout.
+    - Structure and Organization (5%): The report is well-structured. Follows the assignment guidelines accurately.
+    - Grammar and Style (5%): Correct use of grammar, punctuation, and academic style. Professional and appropriate language is used.
+    - Depth of Reflection (5%): Demonstrates deep understanding and thoughtful reflection on each topics. Includes detailed explanations and insights.
 - **VScode Command Proficiency (30%)**: Correctly answer questions related to Git commands in `writing/VSCode_command.md`. Each correct response is worth 3%.
 - **Code Editing (20%)**: 
     - Successfully create a file named lab3.py in the correct directory (5%).
     - Write a Python program that prints "Hello, VSCode!" to the console (5%).
-    - Provide a clear screenshot showing the lab3.py file open in VSCode with the visible output in the Console (5%).
-    - Correctly submit both lab3.py and lab3.png in the writing/ directory of your project repository (5%).
+    - Provide a clear screenshot showing the lab3.py file open in VSCode with the visible output in the Console (10%).
+- **Git Integration and Branching (20%)**:
+    - Successfully removing the "TODO" from the `README.md` file (5%).
+    - Correctly committing changes with an appropriate message (5%).
+    - Successfully creating and switching to a new branch within VSCode (10%).
 - **Achieve GatorGrader Compliance (10%)**: Successfully meets the criteria set by GatorGrader.
 
 ## Gator Grade

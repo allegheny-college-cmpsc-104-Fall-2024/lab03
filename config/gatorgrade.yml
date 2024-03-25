@@ -27,6 +27,10 @@ setup: |
     - description: Ensure that a lab3.png screenshot file exists
       check: ConfirmFileExists
 
+- writing/lab3-branching.png:
+    - description: Ensure that a lab3-branching.png screenshot file exists
+      check: ConfirmFileExists
+
 - writing/reflection.md:
     - description: Ensure that the reflection.md files exist
       check: ConfirmFileExists
