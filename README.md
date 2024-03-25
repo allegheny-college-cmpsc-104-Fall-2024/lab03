@@ -80,7 +80,8 @@ Please verify that your development environment is correctly set up.
 
 ### _Notes_: 
 - Within `writing/VSCode_command.md` and `writing/reflection.md`, you will find several TODOs awaiting your completion. As you work, please ensure to remove all TODO markers. 
-- For this lab, GatorGrader will verify that all TODOs have been eliminated and that your submission includes a minimum of 300 words.
+- For this lab, GatorGrader will verify that all TODOs have been eliminated and that your submission includes a minimum of 200 words.
+- To complete part 3, first make sure that Python3 is installed by typing `python --version` into the Terminal in VSCode to verify your current version. If Python is not installed, refer to the instructions in the "Gator Grade" section of this assignment for guidance on installation.
 
 ## Resources
 - Official Visual Studio Code Documentation: https://code.visualstudio.com/docs
