@@ -12,7 +12,7 @@ def group_religions(religion):
         "Sikh", "Hindu", "Jewish", "Buddhist", "Muslim", "Other Non Christian",
         "Pagan/Wiccan", "Unitarian/Universal"
     ]
-    no_religion = ["Agnostic", "Atheist", "Unaffiliated", None]  # error: None should be "None"
+    no_religion = ["Agnostic", "Atheist", "Unaffiliated", "None"]
 
     if religion in christian_denominations:
         return "christian"
@@ -24,5 +24,6 @@ def group_religions(religion):
         return religion
 
 # Example
-religion_group = group_religions("Baptist")
-print(religion_group)
+religion = group_religions("Baptist")
+if religion:
+    print(religion)

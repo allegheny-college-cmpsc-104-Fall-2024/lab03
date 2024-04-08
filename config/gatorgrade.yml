@@ -23,12 +23,18 @@ setup: |
         count: 1
         exact: false
 
-- writing/lab3.png:
-    - description: Ensure that a lab3.png screenshot file exists
+- writing/debug.py:
+    - description: Ensure that a debug.py file exists
       check: ConfirmFileExists
+    - description: Check that the print statement exists in the debug.py file
+      check: MatchFileFragment
+      options:
+        fragment: 'elif religion in non_christian_religions:'
+        count: 1
+        exact: true
 
-- writing/lab3-branching.png:
-    - description: Ensure that a lab3-branching.png screenshot file exists
+- writing/debug.png:
+    - description: Ensure that a debug.png screenshot file exists
       check: ConfirmFileExists
 
 - writing/reflection.md:
