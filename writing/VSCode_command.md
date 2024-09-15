@@ -1,5 +1,5 @@
 
-# CMPSC 104 - Document Engineering Lab 1 Assignment (Part 2)
+# CMPSC 104 - Document Engineering Lab 3 Assignment (Part 1)
 
 Please add your responses to this file.
 
@@ -11,7 +11,7 @@ Please add your responses to this file.
 
 ---
 
-Complete the tasks in Visual Studio Code.
+Complete the tasks using **keyboard shortcuts** in Visual Studio Code.
 
 1. **How do you open a folder in VSCode?**
    - Enter your command:
