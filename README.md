@@ -44,8 +44,8 @@ These assignment learning outcomes contribute to the following course learning o
 
 ### Part 3: Debugging
 1. Identify and correct errors in `writing/debug.py` using VSCode's debugging features.
-3. Upon successfully debugging the script, take a screenshot of your VSCode interface showing the corrected script and no errors present. Name this screenshot debug.png. This will serve as proof of your successful debugging process
-2. Submit the corrected debug.py file and the debug.png screenshot.
+3. Upon successfully debugging the script, take a screenshot of your VSCode interface showing the corrected script and no errors present. Name this screenshot **debug.png**. This will serve as proof of your successful debugging process
+2. Submit the corrected **debug.py** file and the **debug.png** screenshot.
 
 ### Part 4: Write about Visual Studio Code Insights
 - Please complete the TODOs in `writing/reflection.md`.
@@ -53,17 +53,13 @@ These assignment learning outcomes contribute to the following course learning o
 2. Discuss the key features of VSCode, such as IntelliSense, Debugging, Extensions, and Version Control Integration.
 
 ### Part 5: Git Integration and Branching
-1. **Modify README.md**:Open the README.md file and Delete the "Delete-mark" here.
-2. **Commit Your Changes**:
-   - Navigate to the Source Control panel in VSCode.
-   - Stage your changes for commit by clicking the `+` next to the `README.md` file.
-   - Commit your changes by entering a meaningful commit message in the message box and pressing the checkmark icon or `Ctrl+Enter` (`Cmd+Enter` on macOS).
-   - Example commit message: `"Remove TODO items from README."`
-3. **Work with Branches**:
+1. **Work with Branches**:
    - Create a new branch named `update-readme` by opening the Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P` on macOS), then typing `Git: Create Branch...` and entering the branch name.
    - Switch to your newly created branch by opening the Command Palette again, typing `Git: Checkout to...`, and selecting `update-readme`.
+2. **Modify README.md**:Open the README.md file and Delete the "Delete-mark" here.
+3. **Commit Your Changes**
 4. **Push Changes and Branch to Remote**:
-   - Push your commit along with the new branch to the remote repository. This can be done from the Source Control panel by clicking the `...` button, selecting `Push to...`, choosing your remote, and then selecting your branch.
+   - Push your commit along with the new branch to the remote repository.
 
 ### _Notes_: 
 - Within `writing/VSCode_command.md` and `writing/reflection.md`, you will find several TODOs awaiting your completion. As you work, please ensure to remove all TODO markers. 
