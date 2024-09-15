@@ -89,7 +89,7 @@ Please submit your work by pushing it to your GitHub Classroom repository.
     - Correctly identify and fix all logical errors in the debug.py file, ensuring that the function group_religions returns accurate categories for each religion type (5%).
     - Provide a clear screenshot (debug.png) showing the corrected debug.py file open in VSCode, with the script successfully executed and displaying the expected output in the Terminal. The screenshot should clearly show the VSCode interface, including the Terminal output demonstrating the script running without errors (5%).
 - **Git Integration and Branching (20%)**:
-    - Successfully removing the "TODO" from the `README.md` file (5%).
+    - Successfully removing the "Delete-mark" from the `README.md` file (5%).
     - Correctly committing changes with an appropriate message (5%).
     - Successfully creating and switching to a new branch within VSCode (10%).
 - **Achieve GatorGrader Compliance (10%)**: Successfully meets the criteria set by GatorGrader.
